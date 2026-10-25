@@ -2,29 +2,26 @@ using UnityEngine;
 
 public class Fuego1 : MonoBehaviour
 {
+    [Header("Configuración del Fuego")]
     public int CantDano = 10;
-    public float IntervaloDeDano = 1.0f;
-    private float TiempoDano;
-    private void OnTriggerStay2D(Collider2D other){
-        if (other.CompareTag("Player")){
-            if (Time.time >= TiempoDano) {
-                VidaZelena2 vidazelena = other.GetComponent<VidaZelena2>();
-                if (vidazelena != null){
-                    vidazelena.RecibeDano(CantDano);
-                }
-                TiempoDano = Time.time + IntervaloDeDano;
-            }
+    // Al volverlo private, Unity borra la casilla del Inspector y obedece al 100% el valor del código
+    private float nuevaVelocidadFuego = 24f;
+
+    [Header("Cambio de Aspecto")]
+    public Sprite fuegoModificado;
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // MENSAJE DE CONTROL: Si esto no sale en consola, el objeto del mapa no tiene este script.
+        Debug.Log($"¡Algo tocó el objeto con Fuego1! Nombre del objeto: {other.name}");
+
+        PlayerController2D jugador = other.GetComponent<PlayerController2D>();
+
+        if (jugador != null)
+        {
+            jugador.ActivarEstadoFuego(nuevaVelocidadFuego, 5f);
+            jugador.RecibeDano(CantDano);
         }
     }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

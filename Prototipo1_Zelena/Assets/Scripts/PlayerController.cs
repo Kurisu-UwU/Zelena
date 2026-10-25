@@ -1,11 +1,17 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController2D : MonoBehaviour
 {
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip ZombieMordida;
+    [SerializeField] private AudioClip ZombieSalta;
+    [SerializeField] private AudioClip ZombieSalta2;
     [Header("Stats")]
     public int MaxVidaZelena = 100;
     private int CantVidaZelena;
+
     [Header("Movimiento Horizontal")]
     public float moveSpeed = 8f;
     private float horizontalInput;
@@ -18,6 +24,7 @@ public class PlayerController2D : MonoBehaviour
     public float groundCheckRadius = 0.2f;
     public LayerMask whatIsGround;
     private Rigidbody2D rb;
+    private Animator anim; // Referencia al Animator
 
     [Header("Dash")]
     public float dashSpeed = 22f;
@@ -28,13 +35,19 @@ public class PlayerController2D : MonoBehaviour
 
     [Header("Infección")]
     public string humanTag = "Human";
-
     [Header("Quemar")]
+    public bool estaQuemandose = false;
     public string fuegoTag = "Fuego";
+    [Header("Portal")]
+    public string portalTag = "Portal";
+
+    [Header("Portal")]
+    public string portalTag = "Portal";
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
         CantVidaZelena = MaxVidaZelena;
     }
 
@@ -48,14 +61,16 @@ public class PlayerController2D : MonoBehaviour
         {
             horizontalInput = -1f;
             facingDirection = -1;
+            transform.localScale = new Vector3(-1f, 1f, 1f);
         }
         if (Input.GetKey(KeyCode.D))
         {
             horizontalInput = 1f;
             facingDirection = 1;
+            transform.localScale = new Vector3(1f, 1f, 1f);
         }
 
-        // Comprobación de si está en el suelo (Salto único)
+        // Comprobación de si está en el suelo
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
 
         // Salto (Barra Espaciadora)
@@ -64,24 +79,33 @@ public class PlayerController2D : MonoBehaviour
             Jump();
         }
 
-        // Dash (Tecla Left Shift)
+        // Dash (Left Shift)
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             StartCoroutine(Dash());
         }
+
+        // Actualizar parámetros del Animator
+        bool isWalking = horizontalInput != 0;
+        anim.SetBool("IsWalking", isWalking);
+        anim.SetBool("IsJumping", !isGrounded);
     }
 
     void FixedUpdate()
     {
         if (isDashing) return;
-
-        // Aplicar movimiento horizontal manteniendo la velocidad vertical actual
         rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
     }
 
     void Jump()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        int i = Random.Range(0, 2);
+        if (i==1) {
+        audioSource.PlayOneShot(ZombieSalta);
+        } else {
+            audioSource.PlayOneShot(ZombieSalta2);
+        }
     }
 
     IEnumerator Dash()
@@ -90,9 +114,8 @@ public class PlayerController2D : MonoBehaviour
         isDashing = true;
 
         float originalGravity = rb.gravityScale;
-        rb.gravityScale = 0f; // Anular la gravedad temporalmente durante el dash
+        rb.gravityScale = 0f;
 
-        // Determinar dirección del dash según el movimiento actual o la última dirección
         float dashDir = horizontalInput != 0 ? horizontalInput : facingDirection;
         rb.linearVelocity = new Vector2(dashDir * dashSpeed, 0f);
 
@@ -105,18 +128,19 @@ public class PlayerController2D : MonoBehaviour
         canDash = true;
     }
 
-    // Mecánica de Infección por Colisión
+    // Colisiones
     private void OnCollisionEnter2D(Collision2D collision)
     {
         CheckAndInfect(collision.gameObject);
         CheckFuego(collision.gameObject);
+        CheckPortal(collision.gameObject);
     }
 
-    // Mecánica de Infección si el objeto humano es un Trigger
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(collision.gameObject);
         CheckAndInfect(collision.gameObject);
+        CheckFuego(collision.gameObject);
+        CheckPortal(collision.gameObject);
     }
 
     void CheckAndInfect(GameObject target)
@@ -124,9 +148,11 @@ public class PlayerController2D : MonoBehaviour
         if (target.CompareTag(humanTag))
         {
             Debug.Log($"¡Objeto humano infectado: {target.name}!");
+            audioSource.PlayOneShot(ZombieMordida);
             Destroy(target);
         }
     }
+
     void CheckFuego(GameObject target)
     {
         if (target.CompareTag(fuegoTag))
@@ -134,8 +160,58 @@ public class PlayerController2D : MonoBehaviour
             Debug.Log($"¡Te quemas!: {target.name}!");
         }
     }
+    void CheckPortal(GameObject target){
+        if (target.CompareTag(portalTag)) {
+            Debug.Log($"Portal: {target.name}!");
+            SceneManager.LoadScene("Escenario3");
+        }
+    }
 
-    // Visualizar el círculo de detección de suelo en el editor
+    void CheckPortal(GameObject target)
+    {
+        if (target.CompareTag(portalTag))
+        {
+            Debug.Log($"Portal: {target.name}!");
+            SceneManager.LoadScene("Escenario3");
+        }
+    }
+
+    // Sistema de Vida y Daño
+    public void RecibeDano(int Cant)
+    {
+        CantVidaZelena -= Cant;
+        Debug.Log("Vida actual:" + CantVidaZelena);
+        if (CantVidaZelena <= 0)
+        {
+            Muerto();
+        }
+    }
+
+    // Función para activar el fuego
+    public void ActivarEstadoFuego(float nuevaVelocidad, float tiempo)
+    {
+        StopAllCoroutines();
+        estaQuemandose = true;
+        moveSpeed = nuevaVelocidad;
+
+        StartCoroutine(TemporizadorFuego(tiempo));
+        Debug.Log($"🔥 ¡Personaje en llamas! Velocidad cambiada a {moveSpeed}");
+    }
+
+    private IEnumerator TemporizadorFuego(float tiempo)
+    {
+        yield return new WaitForSeconds(tiempo);
+        estaQuemandose = false;
+        moveSpeed = 8f;
+        Debug.Log("❄️ El fuego se apagó y la velocidad volvió a 8f");
+    }
+
+    void Muerto()
+    {
+        Debug.Log("Rip");
+    }
+
+    // Gizmos
     private void OnDrawGizmosSelected()
     {
         if (groundCheck != null)
@@ -144,6 +220,8 @@ public class PlayerController2D : MonoBehaviour
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
     }
+<<<<<<< HEAD
+=======
     public void RecibeDano(int Cant){
         CantVidaZelena -= Cant;
         Debug.Log("Vida actual:" + CantVidaZelena);
@@ -151,8 +229,33 @@ public class PlayerController2D : MonoBehaviour
             Muerto();
         }
     }
-     void Muerto() {
+
+    // Función para que el fuego active la velocidad desde aquí
+    public void ActivarEstadoFuego(float nuevaVelocidad, float tiempo)
+    {
+        StopAllCoroutines(); // Evitamos que se acumulen relojes si toca varios fuegos
+        estaQuemandose = true;
+        moveSpeed = nuevaVelocidad; // Cambia la velocidad en el frame exacto
+
+        StartCoroutine(TemporizadorFuego(tiempo));
+        Debug.Log($"🔥 ¡Personaje en llamas! Velocidad cambiada a {moveSpeed}");
+    }
+
+    // El temporizador ahora recibe el tiempo dinámicamente
+    private IEnumerator TemporizadorFuego(float tiempo)
+    {
+        yield return new WaitForSeconds(tiempo);
+
+        estaQuemandose = false;
+        moveSpeed = 8f; // Regresa a la velocidad normal de tu diseño
+
+        Debug.Log("❄️ El fuego se apagó y la velocidad volvió a 8f");
+    }
+
+
+    void Muerto() {
         Debug.Log("Rip");
     }
 
+>>>>>>> 67014d2f119c515c53203ebb6a51d4db85ee887b
 }

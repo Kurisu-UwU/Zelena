@@ -1,0 +1,3798 @@
+fileFormatVersion: 2
+guid: cef1fb04f55c33e4dad1e206349a9423
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1189841782315786756
+    second: ZELENA SPRITES_0
+  - first:
+      213: -6302415843261577553
+    second: ZELENA SPRITES_1
+  - first:
+      213: -5986739295126842
+    second: ZELENA SPRITES_2
+  - first:
+      213: -1530709746386252092
+    second: ZELENA SPRITES_3
+  - first:
+      213: 7136040501366438887
+    second: ZELENA SPRITES_4
+  - first:
+      213: 7788127329803456214
+    second: ZELENA SPRITES_5
+  - first:
+      213: 4366580015409212316
+    second: ZELENA SPRITES_6
+  - first:
+      213: 1987758170667907643
+    second: ZELENA SPRITES_7
+  - first:
+      213: 6116094718638072465
+    second: ZELENA SPRITES_8
+  - first:
+      213: 1176521206644398626
+    second: ZELENA SPRITES_9
+  - first:
+      213: -3291946560247989366
+    second: ZELENA SPRITES_10
+  - first:
+      213: -250563753403215305
+    second: ZELENA SPRITES_11
+  - first:
+      213: 6616077642342175262
+    second: ZELENA SPRITES_12
+  - first:
+      213: 2884835850653596187
+    second: ZELENA SPRITES_13
+  - first:
+      213: 194243267557657016
+    second: ZELENA SPRITES_14
+  - first:
+      213: -5163060823867891573
+    second: ZELENA SPRITES_15
+  - first:
+      213: -6108038799062046456
+    second: ZELENA SPRITES_16
+  - first:
+      213: -3325592323942012999
+    second: ZELENA SPRITES_17
+  - first:
+      213: 5032258701201972791
+    second: ZELENA SPRITES_18
+  - first:
+      213: -3883646858513374670
+    second: ZELENA SPRITES_19
+  - first:
+      213: -1587957762848571491
+    second: ZELENA SPRITES_20
+  - first:
+      213: 1244322457664962403
+    second: ZELENA SPRITES_21
+  - first:
+      213: 2337443086516660084
+    second: ZELENA SPRITES_22
+  - first:
+      213: -3717739202474524235
+    second: ZELENA SPRITES_23
+  - first:
+      213: -5797917520744145918
+    second: ZELENA SPRITES_24
+  - first:
+      213: -3175814009651271009
+    second: ZELENA SPRITES_25
+  - first:
+      213: -4180462768467939634
+    second: ZELENA SPRITES_26
+  - first:
+      213: 8294295599526216054
+    second: ZELENA SPRITES_27
+  - first:
+      213: -9208905896398021997
+    second: ZELENA SPRITES_28
+  - first:
+      213: 5591293897226754543
+    second: ZELENA SPRITES_29
+  - first:
+      213: 8622378993319788811
+    second: ZELENA SPRITES_30
+  - first:
+      213: -4858349364426525373
+    second: ZELENA SPRITES_31
+  - first:
+      213: 6328849202508835269
+    second: ZELENA SPRITES_32
+  - first:
+      213: -8626001075129571756
+    second: ZELENA SPRITES_33
+  - first:
+      213: -6492321928167450737
+    second: ZELENA SPRITES_34
+  - first:
+      213: -4061614360198290931
+    second: ZELENA SPRITES_35
+  - first:
+      213: 1994051325779021525
+    second: ZELENA SPRITES_36
+  - first:
+      213: -4308278197256113819
+    second: ZELENA SPRITES_37
+  - first:
+      213: 591047005248265381
+    second: ZELENA SPRITES_38
+  - first:
+      213: 6027261396072822576
+    second: ZELENA SPRITES_39
+  - first:
+      213: 8497427758533355637
+    second: ZELENA SPRITES_40
+  - first:
+      213: 3491152221105397665
+    second: ZELENA SPRITES_41
+  - first:
+      213: -5907037945316746393
+    second: ZELENA SPRITES_42
+  - first:
+      213: 8329431025365242180
+    second: ZELENA SPRITES_43
+  - first:
+      213: -6269625637709171810
+    second: ZELENA SPRITES_44
+  - first:
+      213: -3944369180178138744
+    second: ZELENA SPRITES_45
+  - first:
+      213: 5174006299792593830
+    second: ZELENA SPRITES_46
+  - first:
+      213: 1785921637827008729
+    second: ZELENA SPRITES_47
+  - first:
+      213: 7707390061299459769
+    second: ZELENA SPRITES_48
+  - first:
+      213: -1661898354245827084
+    second: ZELENA SPRITES_49
+  - first:
+      213: 3521008600438124221
+    second: ZELENA SPRITES_50
+  - first:
+      213: 918153083704068219
+    second: ZELENA SPRITES_51
+  - first:
+      213: 1881215827195977106
+    second: ZELENA SPRITES_52
+  - first:
+      213: 3046002094818303490
+    second: ZELENA SPRITES_53
+  - first:
+      213: 2262127575351639228
+    second: ZELENA SPRITES_54
+  - first:
+      213: 6335824943536745898
+    second: ZELENA SPRITES_55
+  - first:
+      213: 8113230680165784192
+    second: ZELENA SPRITES_56
+  - first:
+      213: -906940107680857639
+    second: ZELENA SPRITES_57
+  - first:
+      213: -3887915357343522546
+    second: ZELENA SPRITES_58
+  - first:
+      213: -478247487930422309
+    second: ZELENA SPRITES_59
+  - first:
+      213: 1916816828420292537
+    second: ZELENA SPRITES_60
+  - first:
+      213: 5299279644263747811
+    second: ZELENA SPRITES_61
+  - first:
+      213: 2781806015469756306
+    second: ZELENA SPRITES_62
+  - first:
+      213: -3819598750225004236
+    second: ZELENA SPRITES_63
+  - first:
+      213: -7303156339474897567
+    second: ZELENA SPRITES_64
+  - first:
+      213: -7837856716466559259
+    second: ZELENA SPRITES_65
+  - first:
+      213: -2508600667361960582
+    second: ZELENA SPRITES_66
+  - first:
+      213: -7531669507452588065
+    second: ZELENA SPRITES_67
+  - first:
+      213: 1474005275497208715
+    second: ZELENA SPRITES_68
+  - first:
+      213: 8526917057799997690
+    second: ZELENA SPRITES_69
+  - first:
+      213: 2423177948355332715
+    second: ZELENA SPRITES_70
+  - first:
+      213: 7382094932020245452
+    second: ZELENA SPRITES_71
+  - first:
+      213: -472007265348620341
+    second: ZELENA SPRITES_72
+  - first:
+      213: -4445095447599373294
+    second: ZELENA SPRITES_73
+  - first:
+      213: -1072695946674435022
+    second: ZELENA SPRITES_74
+  - first:
+      213: 6290456534608543224
+    second: ZELENA SPRITES_75
+  - first:
+      213: -3770636794820152031
+    second: ZELENA SPRITES_76
+  - first:
+      213: 4697869947930723003
+    second: ZELENA SPRITES_77
+  - first:
+      213: -3679514391419452344
+    second: ZELENA SPRITES_78
+  - first:
+      213: 5982975176495940633
+    second: ZELENA SPRITES_79
+  - first:
+      213: -4573884432361618441
+    second: ZELENA SPRITES_80
+  - first:
+      213: -928987187405743709
+    second: ZELENA SPRITES_81
+  - first:
+      213: -7940706620068818422
+    second: ZELENA SPRITES_82
+  - first:
+      213: -6459239552131329282
+    second: ZELENA SPRITES_83
+  - first:
+      213: 8200962870446611226
+    second: ZELENA SPRITES_84
+  - first:
+      213: 8224962740714733958
+    second: ZELENA SPRITES_85
+  - first:
+      213: 4000928213879327190
+    second: ZELENA SPRITES_86
+  - first:
+      213: 3281530361434006429
+    second: ZELENA SPRITES_87
+  - first:
+      213: 4201821486490647516
+    second: ZELENA SPRITES_88
+  - first:
+      213: -4244865093038352071
+    second: ZELENA SPRITES_89
+  - first:
+      213: 8159933183558474112
+    second: ZELENA SPRITES_90
+  - first:
+      213: -8002208842437976064
+    second: ZELENA SPRITES_91
+  - first:
+      213: -1227174044880497254
+    second: ZELENA SPRITES_92
+  - first:
+      213: -4707939861607141631
+    second: ZELENA SPRITES_93
+  - first:
+      213: 1569501970583291827
+    second: ZELENA SPRITES_94
+  - first:
+      213: 7173346126796129849
+    second: ZELENA SPRITES_95
+  - first:
+      213: -2061337051359426492
+    second: ZELENA SPRITES_96
+  - first:
+      213: -8438360102243587188
+    second: ZELENA SPRITES_97
+  - first:
+      213: -6850803339939179160
+    second: ZELENA SPRITES_98
+  - first:
+      213: -618944070814590607
+    second: ZELENA SPRITES_99
+  - first:
+      213: -5510285920898020383
+    second: ZELENA SPRITES_100
+  - first:
+      213: -1733675074121624681
+    second: ZELENA SPRITES_101
+  - first:
+      213: 9149341879071044369
+    second: ZELENA SPRITES_102
+  - first:
+      213: -5597662453276880090
+    second: ZELENA SPRITES_103
+  - first:
+      213: -3173788893998444262
+    second: ZELENA SPRITES_104
+  - first:
+      213: -2026256083327265386
+    second: ZELENA SPRITES_105
+  - first:
+      213: -4273404171370960582
+    second: ZELENA SPRITES_106
+  - first:
+      213: 2502904570826034025
+    second: ZELENA SPRITES_107
+  - first:
+      213: -8722901707489909492
+    second: ZELENA SPRITES_108
+  - first:
+      213: 8141357710175130506
+    second: ZELENA SPRITES_109
+  - first:
+      213: -3654651356574305606
+    second: ZELENA SPRITES_110
+  - first:
+      213: -7391013428113215402
+    second: ZELENA SPRITES_111
+  - first:
+      213: 5795914642415877044
+    second: ZELENA SPRITES_112
+  - first:
+      213: -382434261613568705
+    second: ZELENA SPRITES_113
+  - first:
+      213: -1878271412758638076
+    second: ZELENA SPRITES_114
+  - first:
+      213: -8150428238630150378
+    second: ZELENA SPRITES_115
+  - first:
+      213: 3580022434456699552
+    second: ZELENA SPRITES_116
+  - first:
+      213: 8580529175780527457
+    second: ZELENA SPRITES_117
+  - first:
+      213: 3252104324998212630
+    second: ZELENA SPRITES_118
+  - first:
+      213: -2327401443206317981
+    second: ZELENA SPRITES_119
+  - first:
+      213: -4974890659579337089
+    second: ZELENA SPRITES_120
+  - first:
+      213: 8081919223480137716
+    second: ZELENA SPRITES_121
+  - first:
+      213: 3847070282905714288
+    second: ZELENA SPRITES_122
+  - first:
+      213: 4181652716521330434
+    second: ZELENA SPRITES_123
+  - first:
+      213: -3008017843631927107
+    second: ZELENA SPRITES_124
+  - first:
+      213: 5412362765295735987
+    second: ZELENA SPRITES_125
+  - first:
+      213: 100430703813693142
+    second: ZELENA SPRITES_126
+  - first:
+      213: 7686038825647855827
+    second: ZELENA SPRITES_127
+  - first:
+      213: -4070876825771749919
+    second: ZELENA SPRITES_128
+  - first:
+      213: -9131642623707389934
+    second: ZELENA SPRITES_129
+  - first:
+      213: -9177106725598564612
+    second: ZELENA SPRITES_130
+  - first:
+      213: -887990177030257859
+    second: ZELENA SPRITES_131
+  - first:
+      213: -880671293865285446
+    second: ZELENA SPRITES_132
+  - first:
+      213: -8635905948485773291
+    second: ZELENA SPRITES_133
+  - first:
+      213: -2678577639872541458
+    second: ZELENA SPRITES_134
+  - first:
+      213: 5445963716009998368
+    second: ZELENA SPRITES_135
+  - first:
+      213: -8202872011724160485
+    second: ZELENA SPRITES_136
+  - first:
+      213: -2951755817848879359
+    second: ZELENA SPRITES_137
+  - first:
+      213: 3876355676882159254
+    second: ZELENA SPRITES_138
+  - first:
+      213: -430132959053981413
+    second: ZELENA SPRITES_139
+  - first:
+      213: -2521070941913898423
+    second: ZELENA SPRITES_140
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZELENA SPRITES_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7302
+        width: 659
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402a9d50cca238010800000000000000
+      internalID: 1189841782315786756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_1
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 7312
+        width: 661
+        height: 863
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa68993ae225988a0800000000000000
+      internalID: -6302415843261577553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_2
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 8105
+        width: 37
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca73f2a71bbaeff0800000000000000
+      internalID: -5986739295126842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_3
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 7304
+        width: 652
+        height: 869
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce4b608893d1cae0800000000000000
+      internalID: -1530709746386252092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_4
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 7309
+        width: 651
+        height: 866
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb3fb2170f480360800000000000000
+      internalID: 7136040501366438887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_5
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 8105
+        width: 37
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de427e0b8cf41c60800000000000000
+      internalID: 7788127329803456214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_6
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 7586
+        width: 489
+        height: 606
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b29cd8365399c30800000000000000
+      internalID: 4366580015409212316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_7
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 7511
+        width: 495
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a7a0e468fe59b10800000000000000
+      internalID: 1987758170667907643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_8
+      rect:
+        serializedVersion: 2
+        x: 3677
+        y: 7511
+        width: 443
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192a01dfdbbb0e450800000000000000
+      internalID: 6116094718638072465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_9
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 7511
+        width: 485
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ad0c0ddc7d35010800000000000000
+      internalID: 1176521206644398626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_10
+      rect:
+        serializedVersion: 2
+        x: 4676
+        y: 7752
+        width: 659
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b79d08b08a052d0800000000000000
+      internalID: -3291946560247989366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_11
+      rect:
+        serializedVersion: 2
+        x: 5334
+        y: 7752
+        width: 659
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73210d40891d58cf0800000000000000
+      internalID: -250563753403215305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_12
+      rect:
+        serializedVersion: 2
+        x: 5992
+        y: 7763
+        width: 643
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12953eef8701db50800000000000000
+      internalID: 6616077642342175262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_13
+      rect:
+        serializedVersion: 2
+        x: 6650
+        y: 7763
+        width: 643
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1af481fbeef80820800000000000000
+      internalID: 2884835850653596187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_14
+      rect:
+        serializedVersion: 2
+        x: 7311
+        y: 7555
+        width: 594
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b909c2093712b200800000000000000
+      internalID: 194243267557657016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_15
+      rect:
+        serializedVersion: 2
+        x: 4628
+        y: 7885
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b806e97298f1958b0800000000000000
+      internalID: -5163060823867891573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 6666
+        width: 594
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8096a93f213eb3ba0800000000000000
+      internalID: -6108038799062046456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_17
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 6665
+        width: 597
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7abafa66f19d1d0800000000000000
+      internalID: -3325592323942012999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_18
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 6665
+        width: 597
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e130f60ac26d540800000000000000
+      internalID: 5032258701201972791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_19
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 6804
+        width: 376
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232af3532c38a1ac0800000000000000
+      internalID: -3883646858513374670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_20
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 6708
+        width: 163
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f361bf3d076f9e0800000000000000
+      internalID: -1587957762848571491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_21
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 6773
+        width: 390
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f392bbea8b44110800000000000000
+      internalID: 1244322457664962403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_22
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 6804
+        width: 376
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477a4865a14407020800000000000000
+      internalID: 2337443086516660084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_23
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 6708
+        width: 163
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b146fc84efe76cc0800000000000000
+      internalID: -3717739202474524235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_24
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 6773
+        width: 390
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c180bcbb8a98fa0800000000000000
+      internalID: -5797917520744145918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_25
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 6687
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ae6020cfd3de3d0800000000000000
+      internalID: -3175814009651271009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_26
+      rect:
+        serializedVersion: 2
+        x: 3431
+        y: 6687
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecee8b8d2430cf5c0800000000000000
+      internalID: -4180462768467939634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_27
+      rect:
+        serializedVersion: 2
+        x: 3937
+        y: 6687
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67188d717e14b1370800000000000000
+      internalID: 8294295599526216054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_28
+      rect:
+        serializedVersion: 2
+        x: 4443
+        y: 6687
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a123bc0e4633080800000000000000
+      internalID: -9208905896398021997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_29
+      rect:
+        serializedVersion: 2
+        x: 4949
+        y: 6687
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe99203fc24489d40800000000000000
+      internalID: 5591293897226754543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_30
+      rect:
+        serializedVersion: 2
+        x: 5455
+        y: 6687
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01cd97d208d8a770800000000000000
+      internalID: 8622378993319788811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_31
+      rect:
+        serializedVersion: 2
+        x: 5961
+        y: 6687
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345bc926efca39cb0800000000000000
+      internalID: -4858349364426525373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_32
+      rect:
+        serializedVersion: 2
+        x: 6467
+        y: 6687
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9ad8861d694d750800000000000000
+      internalID: 6328849202508835269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_33
+      rect:
+        serializedVersion: 2
+        x: 6973
+        y: 6687
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456a3c489b94a4880800000000000000
+      internalID: -8626001075129571756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_34
+      rect:
+        serializedVersion: 2
+        x: 7479
+        y: 6687
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f879918aa93a6e5a0800000000000000
+      internalID: -6492321928167450737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_35
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 6727
+        width: 128
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0261cd324f32a7c0800000000000000
+      internalID: -4061614360198290931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_36
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 6727
+        width: 128
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de84f8ad1b4cab10800000000000000
+      internalID: 1994051325779021525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6049
+        width: 507
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5613dfa4ecbe534c0800000000000000
+      internalID: -4308278197256113819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_38
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 6049
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac9169ae12d33800800000000000000
+      internalID: 591047005248265381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_39
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 6049
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03778515e4225a350800000000000000
+      internalID: 6027261396072822576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_40
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 6049
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578aceb668dece570800000000000000
+      internalID: 8497427758533355637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_41
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 5550
+        width: 527
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af9dcbb270137030800000000000000
+      internalID: 3491152221105397665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_42
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 6049
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b54aa194cf50ea0800000000000000
+      internalID: -5907037945316746393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_43
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 6049
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4415308e265189370800000000000000
+      internalID: 8329431025365242180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_44
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 6049
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93b9ad43b0ddf8a0800000000000000
+      internalID: -6269625637709171810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_45
+      rect:
+        serializedVersion: 2
+        x: 3541
+        y: 6049
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889bb78f029c249c0800000000000000
+      internalID: -3944369180178138744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_46
+      rect:
+        serializedVersion: 2
+        x: 4047
+        y: 6049
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a355cc0153cdc740800000000000000
+      internalID: 5174006299792593830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_47
+      rect:
+        serializedVersion: 2
+        x: 4553
+        y: 6049
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8dc53744ed8c810800000000000000
+      internalID: 1785921637827008729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_48
+      rect:
+        serializedVersion: 2
+        x: 5059
+        y: 6049
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6612ddc6626fa60800000000000000
+      internalID: 7707390061299459769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_49
+      rect:
+        serializedVersion: 2
+        x: 5565
+        y: 6049
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f50f5e7040cfe8e0800000000000000
+      internalID: -1661898354245827084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_50
+      rect:
+        serializedVersion: 2
+        x: 6071
+        y: 6049
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbea530caa22dd030800000000000000
+      internalID: 3521008600438124221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_51
+      rect:
+        serializedVersion: 2
+        x: 6577
+        y: 6049
+        width: 508
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b784c937d5fedbc00800000000000000
+      internalID: 918153083704068219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5189
+        width: 659
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ddbd5e3db6b1a10800000000000000
+      internalID: 1881215827195977106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_53
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 5303
+        width: 393
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e9dbe44c2954a20800000000000000
+      internalID: 3046002094818303490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_54
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 5303
+        width: 393
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc33756b01b46f10800000000000000
+      internalID: 2262127575351639228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_55
+      rect:
+        serializedVersion: 2
+        x: 3586
+        y: 5303
+        width: 484
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad219ea73f5de750800000000000000
+      internalID: 6335824943536745898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_56
+      rect:
+        serializedVersion: 2
+        x: 5152
+        y: 5303
+        width: 393
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a1510615cf79070800000000000000
+      internalID: 8113230680165784192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_57
+      rect:
+        serializedVersion: 2
+        x: 6627
+        y: 5303
+        width: 393
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1c029f6c6e963f0800000000000000
+      internalID: -906940107680857639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_58
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 5135
+        width: 557
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01e0c0e4995b0ac0800000000000000
+      internalID: -3887915357343522546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_59
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 5135
+        width: 557
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb2f2f817cec59f0800000000000000
+      internalID: -478247487930422309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_60
+      rect:
+        serializedVersion: 2
+        x: 3856
+        y: 5135
+        width: 557
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf7b7defb6e99a10800000000000000
+      internalID: 1916816828420292537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_61
+      rect:
+        serializedVersion: 2
+        x: 5331
+        y: 5135
+        width: 557
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e09cc972c2da8940800000000000000
+      internalID: 5299279644263747811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_62
+      rect:
+        serializedVersion: 2
+        x: 6806
+        y: 5135
+        width: 557
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f9e1a15d5fa9620800000000000000
+      internalID: 2781806015469756306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_63
+      rect:
+        serializedVersion: 2
+        x: 7374
+        y: 4467
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439005c7c2f0efac0800000000000000
+      internalID: -3819598750225004236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_64
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 4388
+        width: 393
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165e476c00af5aa90800000000000000
+      internalID: -7303156339474897567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_65
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 4388
+        width: 393
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6e996d7d65a3390800000000000000
+      internalID: -7837856716466559259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_66
+      rect:
+        serializedVersion: 2
+        x: 3677
+        y: 4388
+        width: 393
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d1592fbf8af2dd0800000000000000
+      internalID: -2508600667361960582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_67
+      rect:
+        serializedVersion: 2
+        x: 5152
+        y: 4388
+        width: 393
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdfa5aacc722a7790800000000000000
+      internalID: -7531669507452588065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_68
+      rect:
+        serializedVersion: 2
+        x: 6627
+        y: 4388
+        width: 393
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b101b0df7b47410800000000000000
+      internalID: 1474005275497208715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_69
+      rect:
+        serializedVersion: 2
+        x: 7840
+        y: 4513
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af84363f2e1b55670800000000000000
+      internalID: 8526917057799997690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3552
+        width: 525
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a8747618bd0a120800000000000000
+      internalID: 2423177948355332715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_71
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 3552
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc337498a38727660800000000000000
+      internalID: 7382094932020245452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_72
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 4220
+        width: 557
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfed7994e71379f0800000000000000
+      internalID: -472007265348620341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_73
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 3552
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2142225dd39df42c0800000000000000
+      internalID: -4445095447599373294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_74
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 3552
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c087a48b40d11f0800000000000000
+      internalID: -1072695946674435022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_75
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 3552
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd7064d3e03c4750800000000000000
+      internalID: 6290456534608543224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_76
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 4220
+        width: 557
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1253ab310d10cabc0800000000000000
+      internalID: -3770636794820152031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_77
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 3552
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2c467c3df223140800000000000000
+      internalID: 4697869947930723003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_78
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 3552
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8448189e72dbfecc0800000000000000
+      internalID: -3679514391419452344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_79
+      rect:
+        serializedVersion: 2
+        x: 3856
+        y: 4220
+        width: 557
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914450f493cc70350800000000000000
+      internalID: 5982975176495940633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_80
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 3552
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3856d975c4680c0800000000000000
+      internalID: -4573884432361618441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_81
+      rect:
+        serializedVersion: 2
+        x: 4463
+        y: 3552
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a99ac533139b13f0800000000000000
+      internalID: -928987187405743709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_82
+      rect:
+        serializedVersion: 2
+        x: 5021
+        y: 3552
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0294359661fcc190800000000000000
+      internalID: -7940706620068818422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_83
+      rect:
+        serializedVersion: 2
+        x: 5331
+        y: 4220
+        width: 557
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef21f0099db2c56a0800000000000000
+      internalID: -6459239552131329282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_84
+      rect:
+        serializedVersion: 2
+        x: 5579
+        y: 3552
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b5325b74cafc170800000000000000
+      internalID: 8200962870446611226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_85
+      rect:
+        serializedVersion: 2
+        x: 6137
+        y: 3552
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6810023f800f42270800000000000000
+      internalID: 8224962740714733958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_86
+      rect:
+        serializedVersion: 2
+        x: 6695
+        y: 3552
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d98d104307268730800000000000000
+      internalID: 4000928213879327190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_87
+      rect:
+        serializedVersion: 2
+        x: 6806
+        y: 4220
+        width: 557
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93eee83a765a8d20800000000000000
+      internalID: 3281530361434006429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_88
+      rect:
+        serializedVersion: 2
+        x: 7253
+        y: 3552
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbf0e7316edf4a30800000000000000
+      internalID: 4201821486490647516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_89
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 3598
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9395ef920b53715c0800000000000000
+      internalID: -4244865093038352071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_90
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 3598
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089dcec4ff7ed3170800000000000000
+      internalID: 8159933183558474112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_91
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 3598
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000aeff847172f090800000000000000
+      internalID: -8002208842437976064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_92
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 3598
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95915145b338fee0800000000000000
+      internalID: -1227174044880497254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_93
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 3598
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f210db3a90aaeb0800000000000000
+      internalID: -4707939861607141631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_94
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 3598
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b784e60abdf7c510800000000000000
+      internalID: 1569501970583291827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_95
+      rect:
+        serializedVersion: 2
+        x: 3813
+        y: 3598
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9368b9adb48dc8360800000000000000
+      internalID: 7173346126796129849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_96
+      rect:
+        serializedVersion: 2
+        x: 4371
+        y: 3598
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448ce5b8fd8a463e0800000000000000
+      internalID: -2061337051359426492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_97
+      rect:
+        serializedVersion: 2
+        x: 4929
+        y: 3598
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b21f2023ce4ea80800000000000000
+      internalID: -8438360102243587188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_98
+      rect:
+        serializedVersion: 2
+        x: 5487
+        y: 3598
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8659dd0d8ae0de0a0800000000000000
+      internalID: -6850803339939179160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_99
+      rect:
+        serializedVersion: 2
+        x: 6045
+        y: 3598
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179134b95a11967f0800000000000000
+      internalID: -618944070814590607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_100
+      rect:
+        serializedVersion: 2
+        x: 6603
+        y: 3598
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb890256288783b0800000000000000
+      internalID: -5510285920898020383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_101
+      rect:
+        serializedVersion: 2
+        x: 7161
+        y: 3598
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793180b94bfb0f7e0800000000000000
+      internalID: -1733675074121624681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_102
+      rect:
+        serializedVersion: 2
+        x: 7719
+        y: 3598
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11372a6b6fdf8fe70800000000000000
+      internalID: 9149341879071044369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2885
+        width: 525
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623d3eb08ab1152b0800000000000000
+      internalID: -5597662453276880090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_104
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2885
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11942df0df64f3d0800000000000000
+      internalID: -3173788893998444262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_105
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 2885
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695dd49e3da41e3e0800000000000000
+      internalID: -2026256083327265386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_106
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 2885
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39e2cf2c81d1b4c0800000000000000
+      internalID: -4273404171370960582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_107
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 2885
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b89ca327a1cb220800000000000000
+      internalID: 2502904570826034025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_108
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 2885
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c056a6aec1702f680800000000000000
+      internalID: -8722901707489909492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_109
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 2885
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a835060e3b9ebf070800000000000000
+      internalID: 8141357710175130506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_110
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 2885
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab23d7154f1184dc0800000000000000
+      internalID: -3654651356574305606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_111
+      rect:
+        serializedVersion: 2
+        x: 4463
+        y: 2885
+        width: 526
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6507b274278dd6990800000000000000
+      internalID: -7391013428113215402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_112
+      rect:
+        serializedVersion: 2
+        x: 5021
+        y: 3072
+        width: 653
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbfea1c8a93f6050800000000000000
+      internalID: 5795914642415877044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_113
+      rect:
+        serializedVersion: 2
+        x: 5212
+        y: 3262
+        width: 77
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d9596b01251baf0800000000000000
+      internalID: -382434261613568705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_114
+      rect:
+        serializedVersion: 2
+        x: 5252
+        y: 3215
+        width: 305
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40210c20a1a0fe5e0800000000000000
+      internalID: -1878271412758638076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_115
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 2992
+        width: 613
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f132523bcd3ee80800000000000000
+      internalID: -8150428238630150378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_116
+      rect:
+        serializedVersion: 2
+        x: 6531
+        y: 2893
+        width: 423
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a288b5bf6bcea130800000000000000
+      internalID: 3580022434456699552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_117
+      rect:
+        serializedVersion: 2
+        x: 6954
+        y: 2926
+        width: 521
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d0643e2d9241770800000000000000
+      internalID: 8580529175780527457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_118
+      rect:
+        serializedVersion: 2
+        x: 7479
+        y: 2926
+        width: 521
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ca70837abc12d20800000000000000
+      internalID: 3252104324998212630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_119
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2931
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368b4ffe7b863bfd0800000000000000
+      internalID: -2327401443206317981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_120
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2931
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f766d5f9d43a5fab0800000000000000
+      internalID: -4974890659579337089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_121
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 2931
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f73fe2c6beb82070800000000000000
+      internalID: 8081919223480137716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_122
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 2931
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e7e862a0a836530800000000000000
+      internalID: 3847070282905714288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_123
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 2931
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2071d468df6380a30800000000000000
+      internalID: 4181652716521330434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_124
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 2931
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0584855bf5146d0800000000000000
+      internalID: -3008017843631927107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_125
+      rect:
+        serializedVersion: 2
+        x: 3813
+        y: 2931
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4d00552439c1b40800000000000000
+      internalID: 5412362765295735987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_126
+      rect:
+        serializedVersion: 2
+        x: 4371
+        y: 2931
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de8b59613dc46100800000000000000
+      internalID: 100430703813693142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_127
+      rect:
+        serializedVersion: 2
+        x: 4929
+        y: 2931
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8d99ce69b4aaa60800000000000000
+      internalID: 7686038825647855827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_128
+      rect:
+        serializedVersion: 2
+        x: 5052
+        y: 2904
+        width: 367
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed418b68175187c0800000000000000
+      internalID: -4070876825771749919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_129
+      rect:
+        serializedVersion: 2
+        x: 5239
+        y: 2878
+        width: 522
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210ea1e4a63e54180800000000000000
+      internalID: -9131642623707389934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_130
+      rect:
+        serializedVersion: 2
+        x: 5392
+        y: 3055
+        width: 79
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe69d23e0e54a080800000000000000
+      internalID: -9177106725598564612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_131
+      rect:
+        serializedVersion: 2
+        x: 5759
+        y: 2632
+        width: 414
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33431683a93da3f0800000000000000
+      internalID: -887990177030257859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_132
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1838
+        width: 501
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8a64dcf1a37c3f0800000000000000
+      internalID: -880671293865285446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_133
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 1836
+        width: 501
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51892da7b49172880800000000000000
+      internalID: -8635905948485773291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_134
+      rect:
+        serializedVersion: 2
+        x: 5938
+        y: 2464
+        width: 557
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecc71804d7c3dad0800000000000000
+      internalID: -2678577639872541458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_135
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1831
+        width: 508
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02831705523f39b40800000000000000
+      internalID: 5445963716009998368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_136
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1831
+        width: 508
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b120033bd5b892e80800000000000000
+      internalID: -8202872011724160485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_137
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1837
+        width: 525
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107cc6509b14907d0800000000000000
+      internalID: -2951755817848879359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_138
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 1837
+        width: 525
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69641a743f49bc530800000000000000
+      internalID: 3876355676882159254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_139
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 1823
+        width: 508
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1956694a5cd70af0800000000000000
+      internalID: -430132959053981413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZELENA SPRITES_140
+      rect:
+        serializedVersion: 2
+        x: 3674
+        y: 1823
+        width: 508
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942a9a5e55b530dd0800000000000000
+      internalID: -2521070941913898423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZELENA SPRITES_0: 1189841782315786756
+      ZELENA SPRITES_1: -6302415843261577553
+      ZELENA SPRITES_10: -3291946560247989366
+      ZELENA SPRITES_100: -5510285920898020383
+      ZELENA SPRITES_101: -1733675074121624681
+      ZELENA SPRITES_102: 9149341879071044369
+      ZELENA SPRITES_103: -5597662453276880090
+      ZELENA SPRITES_104: -3173788893998444262
+      ZELENA SPRITES_105: -2026256083327265386
+      ZELENA SPRITES_106: -4273404171370960582
+      ZELENA SPRITES_107: 2502904570826034025
+      ZELENA SPRITES_108: -8722901707489909492
+      ZELENA SPRITES_109: 8141357710175130506
+      ZELENA SPRITES_11: -250563753403215305
+      ZELENA SPRITES_110: -3654651356574305606
+      ZELENA SPRITES_111: -7391013428113215402
+      ZELENA SPRITES_112: 5795914642415877044
+      ZELENA SPRITES_113: -382434261613568705
+      ZELENA SPRITES_114: -1878271412758638076
+      ZELENA SPRITES_115: -8150428238630150378
+      ZELENA SPRITES_116: 3580022434456699552
+      ZELENA SPRITES_117: 8580529175780527457
+      ZELENA SPRITES_118: 3252104324998212630
+      ZELENA SPRITES_119: -2327401443206317981
+      ZELENA SPRITES_12: 6616077642342175262
+      ZELENA SPRITES_120: -4974890659579337089
+      ZELENA SPRITES_121: 8081919223480137716
+      ZELENA SPRITES_122: 3847070282905714288
+      ZELENA SPRITES_123: 4181652716521330434
+      ZELENA SPRITES_124: -3008017843631927107
+      ZELENA SPRITES_125: 5412362765295735987
+      ZELENA SPRITES_126: 100430703813693142
+      ZELENA SPRITES_127: 7686038825647855827
+      ZELENA SPRITES_128: -4070876825771749919
+      ZELENA SPRITES_129: -9131642623707389934
+      ZELENA SPRITES_13: 2884835850653596187
+      ZELENA SPRITES_130: -9177106725598564612
+      ZELENA SPRITES_131: -887990177030257859
+      ZELENA SPRITES_132: -880671293865285446
+      ZELENA SPRITES_133: -8635905948485773291
+      ZELENA SPRITES_134: -2678577639872541458
+      ZELENA SPRITES_135: 5445963716009998368
+      ZELENA SPRITES_136: -8202872011724160485
+      ZELENA SPRITES_137: -2951755817848879359
+      ZELENA SPRITES_138: 3876355676882159254
+      ZELENA SPRITES_139: -430132959053981413
+      ZELENA SPRITES_14: 194243267557657016
+      ZELENA SPRITES_140: -2521070941913898423
+      ZELENA SPRITES_15: -5163060823867891573
+      ZELENA SPRITES_16: -6108038799062046456
+      ZELENA SPRITES_17: -3325592323942012999
+      ZELENA SPRITES_18: 5032258701201972791
+      ZELENA SPRITES_19: -3883646858513374670
+      ZELENA SPRITES_2: -5986739295126842
+      ZELENA SPRITES_20: -1587957762848571491
+      ZELENA SPRITES_21: 1244322457664962403
+      ZELENA SPRITES_22: 2337443086516660084
+      ZELENA SPRITES_23: -3717739202474524235
+      ZELENA SPRITES_24: -5797917520744145918
+      ZELENA SPRITES_25: -3175814009651271009
+      ZELENA SPRITES_26: -4180462768467939634
+      ZELENA SPRITES_27: 8294295599526216054
+      ZELENA SPRITES_28: -9208905896398021997
+      ZELENA SPRITES_29: 5591293897226754543
+      ZELENA SPRITES_3: -1530709746386252092
+      ZELENA SPRITES_30: 8622378993319788811
+      ZELENA SPRITES_31: -4858349364426525373
+      ZELENA SPRITES_32: 6328849202508835269
+      ZELENA SPRITES_33: -8626001075129571756
+      ZELENA SPRITES_34: -6492321928167450737
+      ZELENA SPRITES_35: -4061614360198290931
+      ZELENA SPRITES_36: 1994051325779021525
+      ZELENA SPRITES_37: -4308278197256113819
+      ZELENA SPRITES_38: 591047005248265381
+      ZELENA SPRITES_39: 6027261396072822576
+      ZELENA SPRITES_4: 7136040501366438887
+      ZELENA SPRITES_40: 8497427758533355637
+      ZELENA SPRITES_41: 3491152221105397665
+      ZELENA SPRITES_42: -5907037945316746393
+      ZELENA SPRITES_43: 8329431025365242180
+      ZELENA SPRITES_44: -6269625637709171810
+      ZELENA SPRITES_45: -3944369180178138744
+      ZELENA SPRITES_46: 5174006299792593830
+      ZELENA SPRITES_47: 1785921637827008729
+      ZELENA SPRITES_48: 7707390061299459769
+      ZELENA SPRITES_49: -1661898354245827084
+      ZELENA SPRITES_5: 7788127329803456214
+      ZELENA SPRITES_50: 3521008600438124221
+      ZELENA SPRITES_51: 918153083704068219
+      ZELENA SPRITES_52: 1881215827195977106
+      ZELENA SPRITES_53: 3046002094818303490
+      ZELENA SPRITES_54: 2262127575351639228
+      ZELENA SPRITES_55: 6335824943536745898
+      ZELENA SPRITES_56: 8113230680165784192
+      ZELENA SPRITES_57: -906940107680857639
+      ZELENA SPRITES_58: -3887915357343522546
+      ZELENA SPRITES_59: -478247487930422309
+      ZELENA SPRITES_6: 4366580015409212316
+      ZELENA SPRITES_60: 1916816828420292537
+      ZELENA SPRITES_61: 5299279644263747811
+      ZELENA SPRITES_62: 2781806015469756306
+      ZELENA SPRITES_63: -3819598750225004236
+      ZELENA SPRITES_64: -7303156339474897567
+      ZELENA SPRITES_65: -7837856716466559259
+      ZELENA SPRITES_66: -2508600667361960582
+      ZELENA SPRITES_67: -7531669507452588065
+      ZELENA SPRITES_68: 1474005275497208715
+      ZELENA SPRITES_69: 8526917057799997690
+      ZELENA SPRITES_7: 1987758170667907643
+      ZELENA SPRITES_70: 2423177948355332715
+      ZELENA SPRITES_71: 7382094932020245452
+      ZELENA SPRITES_72: -472007265348620341
+      ZELENA SPRITES_73: -4445095447599373294
+      ZELENA SPRITES_74: -1072695946674435022
+      ZELENA SPRITES_75: 6290456534608543224
+      ZELENA SPRITES_76: -3770636794820152031
+      ZELENA SPRITES_77: 4697869947930723003
+      ZELENA SPRITES_78: -3679514391419452344
+      ZELENA SPRITES_79: 5982975176495940633
+      ZELENA SPRITES_8: 6116094718638072465
+      ZELENA SPRITES_80: -4573884432361618441
+      ZELENA SPRITES_81: -928987187405743709
+      ZELENA SPRITES_82: -7940706620068818422
+      ZELENA SPRITES_83: -6459239552131329282
+      ZELENA SPRITES_84: 8200962870446611226
+      ZELENA SPRITES_85: 8224962740714733958
+      ZELENA SPRITES_86: 4000928213879327190
+      ZELENA SPRITES_87: 3281530361434006429
+      ZELENA SPRITES_88: 4201821486490647516
+      ZELENA SPRITES_89: -4244865093038352071
+      ZELENA SPRITES_9: 1176521206644398626
+      ZELENA SPRITES_90: 8159933183558474112
+      ZELENA SPRITES_91: -8002208842437976064
+      ZELENA SPRITES_92: -1227174044880497254
+      ZELENA SPRITES_93: -4707939861607141631
+      ZELENA SPRITES_94: 1569501970583291827
+      ZELENA SPRITES_95: 7173346126796129849
+      ZELENA SPRITES_96: -2061337051359426492
+      ZELENA SPRITES_97: -8438360102243587188
+      ZELENA SPRITES_98: -6850803339939179160
+      ZELENA SPRITES_99: -618944070814590607
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
