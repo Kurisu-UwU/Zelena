@@ -4,6 +4,10 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController2D : MonoBehaviour
 {
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip ZombieMordida;
+    [SerializeField] private AudioClip ZombieSalta;
+    [SerializeField] private AudioClip ZombieSalta2;
     [Header("Stats")]
     public int MaxVidaZelena = 100;
     private int CantVidaZelena;
@@ -85,6 +89,12 @@ public class PlayerController2D : MonoBehaviour
     void Jump()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        int i = Random.Range(0, 2);
+        if (i==1) {
+        audioSource.PlayOneShot(ZombieSalta);
+        } else {
+            audioSource.PlayOneShot(ZombieSalta2);
+        }
     }
 
     IEnumerator Dash()
@@ -127,6 +137,7 @@ public class PlayerController2D : MonoBehaviour
         if (target.CompareTag(humanTag))
         {
             Debug.Log($"¡Objeto humano infectado: {target.name}!");
+            audioSource.PlayOneShot(ZombieMordida);
             Destroy(target);
         }
     }
