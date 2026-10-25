@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController2D : MonoBehaviour
 {
@@ -28,9 +29,10 @@ public class PlayerController2D : MonoBehaviour
 
     [Header("Infección")]
     public string humanTag = "Human";
-
     [Header("Quemar")]
     public string fuegoTag = "Fuego";
+    [Header("Portal")]
+    public string portalTag = "Portal";
 
     void Start()
     {
@@ -132,6 +134,12 @@ public class PlayerController2D : MonoBehaviour
         if (target.CompareTag(fuegoTag))
         {
             Debug.Log($"¡Te quemas!: {target.name}!");
+        }
+    }
+    void CheckPortal(GameObject target){
+        if (target.CompareTag(portalTag)) {
+            Debug.Log($"Portal: {target.name}!");
+            SceneManager.LoadScene("Escenario3");
         }
     }
 

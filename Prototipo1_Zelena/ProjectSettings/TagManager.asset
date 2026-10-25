@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Human
   - Fuego
+  - Portal
   layers:
   - Default
   - TransparentFX
