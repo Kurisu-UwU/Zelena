@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class PlayerController2D : MonoBehaviour
 {
+    [Header("Stats")]
+    public int MaxVidaZelena = 100;
+    private int CantVidaZelena;
     [Header("Movimiento Horizontal")]
     public float moveSpeed = 8f;
     private float horizontalInput;
@@ -26,9 +29,13 @@ public class PlayerController2D : MonoBehaviour
     [Header("Infección")]
     public string humanTag = "Human";
 
+    [Header("Quemar")]
+    public string fuegoTag = "Fuego";
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        CantVidaZelena = MaxVidaZelena;
     }
 
     void Update()
@@ -102,6 +109,7 @@ public class PlayerController2D : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         CheckAndInfect(collision.gameObject);
+        CheckFuego(collision.gameObject);
     }
 
     // Mecánica de Infección si el objeto humano es un Trigger
@@ -119,6 +127,13 @@ public class PlayerController2D : MonoBehaviour
             Destroy(target);
         }
     }
+    void CheckFuego(GameObject target)
+    {
+        if (target.CompareTag(fuegoTag))
+        {
+            Debug.Log($"¡Te quemas!: {target.name}!");
+        }
+    }
 
     // Visualizar el círculo de detección de suelo en el editor
     private void OnDrawGizmosSelected()
@@ -129,4 +144,15 @@ public class PlayerController2D : MonoBehaviour
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
     }
+    public void RecibeDano(int Cant){
+        CantVidaZelena -= Cant;
+        Debug.Log("Vida actual:" + CantVidaZelena);
+        if (CantVidaZelena <= 0 ){
+            Muerto();
+        }
+    }
+     void Muerto() {
+        Debug.Log("Rip");
+    }
+
 }
