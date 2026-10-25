@@ -30,6 +30,7 @@ public class PlayerController2D : MonoBehaviour
     [Header("Infección")]
     public string humanTag = "Human";
     [Header("Quemar")]
+    public bool estaQuemandose = false;
     public string fuegoTag = "Fuego";
     [Header("Portal")]
     public string portalTag = "Portal";
@@ -159,7 +160,31 @@ public class PlayerController2D : MonoBehaviour
             Muerto();
         }
     }
-     void Muerto() {
+
+    // Función para que el fuego active la velocidad desde aquí
+    public void ActivarEstadoFuego(float nuevaVelocidad, float tiempo)
+    {
+        StopAllCoroutines(); // Evitamos que se acumulen relojes si toca varios fuegos
+        estaQuemandose = true;
+        moveSpeed = nuevaVelocidad; // Cambia la velocidad en el frame exacto
+
+        StartCoroutine(TemporizadorFuego(tiempo));
+        Debug.Log($"🔥 ¡Personaje en llamas! Velocidad cambiada a {moveSpeed}");
+    }
+
+    // El temporizador ahora recibe el tiempo dinámicamente
+    private IEnumerator TemporizadorFuego(float tiempo)
+    {
+        yield return new WaitForSeconds(tiempo);
+
+        estaQuemandose = false;
+        moveSpeed = 8f; // Regresa a la velocidad normal de tu diseño
+
+        Debug.Log("❄️ El fuego se apagó y la velocidad volvió a 8f");
+    }
+
+
+    void Muerto() {
         Debug.Log("Rip");
     }
 
