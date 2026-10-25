@@ -1,3 +1,4 @@
+using System.Collections; // Obligatorio para usar Corrutinas (WaitForSeconds)
 using UnityEngine;
 
 public class DuctoEntrada : MonoBehaviour
@@ -10,41 +11,72 @@ public class DuctoEntrada : MonoBehaviour
     [Tooltip("El límite máximo de escala X para considerar al personaje 'pequeño'")]
     public float limiteEscalaMax = 0.6f;
 
-    // El bool que pensaste: controla si este ducto está bloqueado temporalmente
-    [HideInInspector] // Esto hace que no sature el inspector, pero funciona por detrás
+    [Header("Animación y Tiempos")]
+    [Tooltip("Tiempo de espera en segundos antes de aparecer en el otro lado")]
+    public float tiempoEspera = 1.0f;
+
+    [HideInInspector]
     public bool transportando = false;
 
-    // 1. CUANDO EL JUGADOR ENTRA A LA HITBOX
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.name == "Personaje")
+        // Como le quitamos el "2D" al nombre de tu script, ahora buscamos "PlayerController"
+        PlayerController2D jugador = collision.GetComponent<PlayerController2D>();
+
+        if (jugador != null)
         {
             // Verificamos si NO está bloqueado y si cumple la condición del tamaño pequeño
             if (!transportando && collision.transform.localScale.x <= limiteEscalaMax)
             {
-                if (ductoDestino != null)
-                {
-                    // Buscamos el script del ducto destino para avisarle que se bloquee
-                    DuctoEntrada scriptDestino = ductoDestino.GetComponent<DuctoEntrada>();
-                    if (scriptDestino != null)
-                    {
-                        scriptDestino.transportando = true; // Bloqueamos el ducto de salida antes de viajar
-                    }
-
-                    // Teletransportamos al personaje
-                    collision.transform.position = ductoDestino.position;
-                    Debug.Log($"Personaje pasó con éxito al ducto: {ductoDestino.name}");
-                }
+                // Iniciamos el proceso de viaje con retraso
+                StartCoroutine(ProcesoTeletransportacion(collision.gameObject, jugador));
             }
         }
     }
 
-    // 2. TU IDEA: CUANDO EL JUGADOR ABANDONA LA HITBOX, VOLVEMOS EL BOOL A FALSO
+    // Tu idea mejorada: El proceso espera aquí antes de mover al humano
+    private IEnumerator ProcesoTeletransportacion(GameObject personajeGO, PlayerController2D jugadorScript)
+    {
+        // 1. Bloqueamos este ducto y el de destino para evitar bucles infinitos
+        transportando = true;
+        if (ductoDestino != null)
+        {
+            DuctoEntrada scriptDestino = ductoDestino.GetComponent<DuctoEntrada>();
+            if (scriptDestino != null)
+            {
+                scriptDestino.transportando = true;
+            }
+        }
+
+        // 2. DETENER AL JUGADOR: Apagamos su velocidad para que se quede quieto durante la animación
+        float velocidadOriginal = jugadorScript.moveSpeed;
+        jugadorScript.moveSpeed = 0f;
+
+        // Opcional: Aquí es donde tus compañeros pueden activar el disparador (Trigger) de la animación
+        // Animator anim = personajeGO.GetComponent<Animator>();
+        // if (anim != null) anim.SetTrigger("EntrarDucto");
+
+        Debug.Log($"Iniciando animación en {gameObject.name}. Esperando {tiempoEspera} segundo...");
+
+        // 3. LA PAUSA: El código se duerme aquí por 1 segundo completo en tiempo real
+        yield return new WaitForSeconds(tiempoEspera);
+
+        // 4. EL VIAJE: Pasado el segundo, movemos físicamente al personaje al destino
+        if (ductoDestino != null)
+        {
+            personajeGO.transform.position = ductoDestino.position;
+            Debug.Log($"Personaje teletransportado con éxito al ducto: {ductoDestino.name}");
+        }
+
+        // 5. DEVOLVER EL MOVIMIENTO: Le regresamos su velocidad original para que pueda caminar al salir
+        jugadorScript.moveSpeed = velocidadOriginal;
+    }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.name == "Personaje")
+        // Buscamos si lo que salió es el jugador para liberar el seguro del ducto
+        if (collision.GetComponent<PlayerController2D>() != null)
         {
-            // El jugador ya salió físicamente del ducto, queda libre para usarse otra vez
             transportando = false;
             Debug.Log($"El ducto {gameObject.name} se ha desbloqueado.");
         }
