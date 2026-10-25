@@ -11,19 +11,24 @@ public class Hacha : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Evaluamos si es el personaje Y si aún NO ha sido cortado
         if (collision.name == "Personaje" && !yaCortado)
         {
-            // Cambiamos el estado para bloquear futuras ejecuciones de este golpe
-            yaCortado = true;
+            yaCortado = true; // Bloqueo lógico inmediato
 
-            collision.transform.localScale = new Vector3(0.5f, 0.5f, 1f);
+            // SOLUCIÓN DEFINITIVA: Desactivamos el collider del hacha para siempre
+            Collider2D miCollider = GetComponent<Collider2D>();
+            if (miCollider != null)
+            {
+                miCollider.enabled = false;
+                // Al hacer esto falso, la zona verde deja de existir físicamente en el juego.
+                // Unity ignora cualquier otra entrada o movimiento posterior.
+            }
 
+            // Aplicamos la escala fija que ya vimos que funciona perfecto
+            collision.transform.localScale = escalaPequena;
 
-            Debug.Log("¡El hacha cortó al personaje! Estado: Pequeño.");
-
-            // OPCIONAL: Si quieres que el hacha desaparezca de la escena tras usarse, descomenta la línea de abajo:
-            // Destroy(gameObject);
+            Debug.Log("¡Hacha desactivada físicamente tras el primer corte!");
         }
     }
+
 }
