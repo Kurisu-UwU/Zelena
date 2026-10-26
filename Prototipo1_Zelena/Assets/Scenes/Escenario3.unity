@@ -794,6 +794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1385e4175fa7c024eb86327340b8f33d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Madera
+  sonidoRomper: {fileID: 8300000, guid: b5d99fe33e4264144b3383b97a99c250, type: 3}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,6 +1333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1385e4175fa7c024eb86327340b8f33d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Madera
+  sonidoRomper: {fileID: 8300000, guid: b5d99fe33e4264144b3383b97a99c250, type: 3}
 --- !u!1 &1130144734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,6 +1566,11 @@ MonoBehaviour:
   estaQuemandose: 0
   fuegoTag: Fuego
   portalTag: Portal
+  sonidoPasos: {fileID: 8300000, guid: d19a2553cde9961428a264bed016153c, type: 3}
+  sonidoSalto: {fileID: 8300000, guid: bea6f8d39f5366b49a54ed65d8257fff, type: 3}
+  sonidoDash: {fileID: 8300000, guid: 9db86ff783ba0654499a7f3006f92aa1, type: 3}
+  sonidoDano: {fileID: 8300000, guid: 7da8b29fe4696a149abba9bdd27e4de0, type: 3}
+  sonidoInfeccion: {fileID: 8300000, guid: 36e18610cf074a842869497534253fbe, type: 3}
 --- !u!50 &1132373487
 Rigidbody2D:
   serializedVersion: 5
@@ -2408,6 +2415,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   CantDano: 10
   fuegoModificado: {fileID: 0}
+  sonidoFuego: {fileID: 8300000, guid: e0d2b15588ef48c4b8314239685ae242, type: 3}
+  colorAlTocar: {r: 1, g: 0.55, b: 0.2, a: 1}
 --- !u!1 &1863767455
 GameObject:
   m_ObjectHideFlags: 0
@@ -2580,6 +2589,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   CantDano: 10
   fuegoModificado: {fileID: 0}
+  sonidoFuego: {fileID: 8300000, guid: e0d2b15588ef48c4b8314239685ae242, type: 3}
+  colorAlTocar: {r: 1, g: 0.55, b: 0.2, a: 1}
 --- !u!61 &2108724013
 BoxCollider2D:
   m_ObjectHideFlags: 0

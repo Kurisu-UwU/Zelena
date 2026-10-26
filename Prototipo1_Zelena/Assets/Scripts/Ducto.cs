@@ -3,17 +3,18 @@ using UnityEngine;
 
 public class DuctoEntrada : MonoBehaviour
 {
-    [Header("Conexión del Par")]
-    [Tooltip("Arrastra aquí el OTRO ducto con el que está conectado este par")]
+    [Header("Conexiï¿½n del Par")]
+    [Tooltip("Arrastra aquï¿½ el OTRO ducto con el que estï¿½ conectado este par")]
     public Transform ductoDestino;
 
-    [Header("Condición de Acceso")]
-    [Tooltip("El límite máximo de escala X para considerar al personaje 'pequeño'")]
+    [Header("Condiciï¿½n de Acceso")]
+    [Tooltip("El lï¿½mite mï¿½ximo de escala X para considerar al personaje 'pequeï¿½o'")]
     public float limiteEscalaMax = 0.6f;
 
-    [Header("Animación y Tiempos")]
+    [Header("Animaciï¿½n y Tiempos")]
     [Tooltip("Tiempo de espera en segundos antes de aparecer en el otro lado")]
     public float tiempoEspera = 1.0f;
+    [SerializeField] private AudioClip sonidoTeletransporte = null;
 
     [HideInInspector]
     public bool transportando = false;
@@ -25,7 +26,7 @@ public class DuctoEntrada : MonoBehaviour
 
         if (jugador != null)
         {
-            // Verificamos si NO está bloqueado y si cumple la condición del tamaño pequeño
+            // Verificamos si NO estï¿½ bloqueado y si cumple la condiciï¿½n del tamaï¿½o pequeï¿½o
             if (!transportando && collision.transform.localScale.x <= limiteEscalaMax)
             {
                 // Iniciamos el proceso de viaje con retraso
@@ -34,7 +35,7 @@ public class DuctoEntrada : MonoBehaviour
         }
     }
 
-    // Tu idea mejorada: El proceso espera aquí antes de mover al humano
+    // Tu idea mejorada: El proceso espera aquï¿½ antes de mover al humano
     private IEnumerator ProcesoTeletransportacion(GameObject personajeGO, PlayerController2D jugadorScript)
     {
         // 1. Bloqueamos este ducto y el de destino para evitar bucles infinitos
@@ -48,24 +49,26 @@ public class DuctoEntrada : MonoBehaviour
             }
         }
 
-        // 2. DETENER AL JUGADOR: Apagamos su velocidad para que se quede quieto durante la animación
+        // 2. DETENER AL JUGADOR: Apagamos su velocidad para que se quede quieto durante la animaciï¿½n
         float velocidadOriginal = jugadorScript.moveSpeed;
         jugadorScript.moveSpeed = 0f;
+        jugadorScript.PlaySfx(sonidoTeletransporte);
 
-        // Opcional: Aquí es donde tus compañeros pueden activar el disparador (Trigger) de la animación
+        // Opcional: Aquï¿½ es donde tus compaï¿½eros pueden activar el disparador (Trigger) de la animaciï¿½n
         // Animator anim = personajeGO.GetComponent<Animator>();
         // if (anim != null) anim.SetTrigger("EntrarDucto");
 
-        Debug.Log($"Iniciando animación en {gameObject.name}. Esperando {tiempoEspera} segundo...");
+        Debug.Log($"Iniciando animaciï¿½n en {gameObject.name}. Esperando {tiempoEspera} segundo...");
 
-        // 3. LA PAUSA: El código se duerme aquí por 1 segundo completo en tiempo real
+        // 3. LA PAUSA: El cï¿½digo se duerme aquï¿½ por 1 segundo completo en tiempo real
         yield return new WaitForSeconds(tiempoEspera);
 
-        // 4. EL VIAJE: Pasado el segundo, movemos físicamente al personaje al destino
+        // 4. EL VIAJE: Pasado el segundo, movemos fï¿½sicamente al personaje al destino
         if (ductoDestino != null)
         {
             personajeGO.transform.position = ductoDestino.position;
-            Debug.Log($"Personaje teletransportado con éxito al ducto: {ductoDestino.name}");
+            jugadorScript.PlaySfx(sonidoTeletransporte);
+            Debug.Log($"Personaje teletransportado con ï¿½xito al ducto: {ductoDestino.name}");
         }
 
         // 5. DEVOLVER EL MOVIMIENTO: Le regresamos su velocidad original para que pueda caminar al salir
@@ -74,7 +77,7 @@ public class DuctoEntrada : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        // Buscamos si lo que salió es el jugador para liberar el seguro del ducto
+        // Buscamos si lo que saliï¿½ es el jugador para liberar el seguro del ducto
         if (collision.GetComponent<PlayerController2D>() != null)
         {
             transportando = false;

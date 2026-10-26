@@ -2,26 +2,41 @@ using UnityEngine;
 
 public class Fuego1 : MonoBehaviour
 {
-    [Header("Configuración del Fuego")]
+    [Header("Configuracion del Fuego")]
     public int CantDano = 10;
-    // Al volverlo private, Unity borra la casilla del Inspector y obedece al 100% el valor del código
     private float nuevaVelocidadFuego = 24f;
 
-    [Header("Cambio de Aspecto")]
+    [Header("Cambio de aspecto")]
     public Sprite fuegoModificado;
+    [SerializeField] private AudioClip sonidoFuego = null;
+    [SerializeField] private Color colorAlTocar = new Color(1f, 0.55f, 0.2f);
+
+    public void ConfigurarEfecto(Sprite sprite, AudioClip sonido)
+    {
+        fuegoModificado = sprite;
+        sonidoFuego = sonido;
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // MENSAJE DE CONTROL: Si esto no sale en consola, el objeto del mapa no tiene este script.
-        Debug.Log($"¡Algo tocó el objeto con Fuego1! Nombre del objeto: {other.name}");
-
-        PlayerController2D jugador = other.GetComponent<PlayerController2D>();
+        PlayerController2D jugador = other.GetComponentInParent<PlayerController2D>();
 
         if (jugador != null)
         {
             jugador.ActivarEstadoFuego(nuevaVelocidadFuego, 5f);
             jugador.RecibeDano(CantDano);
+
+            SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+            if (sprite != null)
+            {
+                sprite.color = colorAlTocar;
+                if (fuegoModificado != null)
+                {
+                    sprite.sprite = fuegoModificado;
+                }
+            }
+
+            jugador.PlaySfx(sonidoFuego);
         }
     }
-
 }

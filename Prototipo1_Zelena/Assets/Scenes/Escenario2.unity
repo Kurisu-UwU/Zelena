@@ -347,11 +347,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b057f742e841b34e99fe5a5672aeecd, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DuctoEntrada
   ductoDestino: {fileID: 657300286}
   limiteEscalaMax: 0.6
   transportando: 0
+  sonidoTeletransporte: {fileID: 8300000, guid: e652838ca4b8cdd4aa3cd306d65ca31f, type: 3}
 --- !u!1 &309054633
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,6 +628,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
+  - component: {fileID: 902000001}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -767,6 +769,22 @@ MonoBehaviour:
   target: {fileID: 1566917686}
   smoothSpeed: 5
   offset: {x: 0, y: 0, z: -10}
+--- !u!114 &902000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7546de275c747f4ae92e9cf70fd1f61, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::MisionEscenario2
+  sonidoFuego: {fileID: 8300000, guid: e0d2b15588ef48c4b8314239685ae242, type: 3}
+  sonidoCorte: {fileID: 8300000, guid: d09e50b6dda53ea4bb90246d2b0a9bfe, type: 3}
+  sonidoRomper: {fileID: 8300000, guid: b5d99fe33e4264144b3383b97a99c250, type: 3}
+  sonidoDucto: {fileID: 8300000, guid: e652838ca4b8cdd4aa3cd306d65ca31f, type: 3}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,6 +987,7 @@ MonoBehaviour:
   ductoDestino: {fileID: 302395205}
   limiteEscalaMax: 0.6
   transportando: 0
+  sonidoTeletransporte: {fileID: 8300000, guid: e652838ca4b8cdd4aa3cd306d65ca31f, type: 3}
 --- !u!1 &1129185438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,6 +1358,11 @@ MonoBehaviour:
   humanTag: Human
   fuegoTag: Fuego
   portalTag: Portal
+  sonidoPasos: {fileID: 8300000, guid: d19a2553cde9961428a264bed016153c, type: 3}
+  sonidoSalto: {fileID: 8300000, guid: bea6f8d39f5366b49a54ed65d8257fff, type: 3}
+  sonidoDash: {fileID: 8300000, guid: 9db86ff783ba0654499a7f3006f92aa1, type: 3}
+  sonidoDano: {fileID: 8300000, guid: 7da8b29fe4696a149abba9bdd27e4de0, type: 3}
+  sonidoInfeccion: {fileID: 8300000, guid: 36e18610cf074a842869497534253fbe, type: 3}
 --- !u!50 &1566917684
 Rigidbody2D:
   serializedVersion: 5
@@ -1674,6 +1698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hacha
   escalaPequena: {x: 0.5, y: 0.5, z: 1}
+  sonidoCorte: {fileID: 8300000, guid: d09e50b6dda53ea4bb90246d2b0a9bfe, type: 3}
 --- !u!212 &1829784171
 SpriteRenderer:
   serializedVersion: 3
